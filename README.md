@@ -141,9 +141,3 @@ All rights reserved.
 Official stable releases, support and installation services are available on:
 
 https://sandrinegermain.com
-
----
-
-## Support
-
-https://sandrinegermain.com
