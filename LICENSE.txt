@@ -1,0 +1,19 @@
+WooCommerce Abby Sync
+Copyright © Sandrine GERMAIN
+
+This plugin is provided for personal and commercial use.
+
+You may:
+- use the plugin on your own websites
+- modify the plugin for your own projects
+
+You may not:
+- redistribute this plugin commercially
+- resell this plugin
+- repackage this plugin
+- publish modified commercial versions without written authorization
+
+Official stable releases, support and commercial licensing are available through:
+https://sandrinegermain.com
+
+The software is provided “as is” without warranty.
