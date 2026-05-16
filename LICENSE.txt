@@ -1,19 +1,241 @@
 WooCommerce Abby Sync
+Licence commerciale / Commercial License
+
 Copyright © Sandrine GERMAIN
+Tous droits réservés / All rights reserved
 
-This plugin is provided for personal and commercial use.
-
-You may:
-- use the plugin on your own websites
-- modify the plugin for your own projects
-
-You may not:
-- redistribute this plugin commercially
-- resell this plugin
-- repackage this plugin
-- publish modified commercial versions without written authorization
-
-Official stable releases, support and commercial licensing are available through:
 https://sandrinegermain.com
 
-The software is provided “as is” without warranty.
+==================================================
+FRANÇAIS
+==================================================
+
+1. OBJET DE LA LICENCE
+
+WooCommerce Abby Sync est un plugin WordPress développé par Sandrine GERMAIN.
+
+Cette licence définit les conditions d’utilisation, de modification, de distribution et d’exploitation commerciale du plugin.
+
+---
+
+2. UTILISATION AUTORISÉE
+
+Vous êtes autorisé à :
+
+- installer le plugin sur vos propres sites ;
+- utiliser le plugin dans un cadre personnel ou professionnel ;
+- modifier le plugin pour vos besoins internes ;
+- utiliser le plugin pour des projets clients ;
+- tester et développer des extensions compatibles.
+
+---
+
+3. RESTRICTIONS
+
+Sauf autorisation écrite préalable de Sandrine GERMAIN, il est interdit de :
+
+- revendre le plugin ;
+- redistribuer le plugin commercialement ;
+- republier le plugin sur une marketplace ;
+- republier une version modifiée du plugin ;
+- supprimer les mentions d’auteur ;
+- rebrander le plugin ;
+- distribuer une version commerciale dérivée ;
+- intégrer le plugin dans une offre SaaS commerciale sans autorisation.
+
+---
+
+4. GITHUB ET DISTRIBUTION PUBLIQUE
+
+Le dépôt GitHub public du projet a pour objectif :
+- la documentation ;
+- la transparence ;
+- le suivi du développement ;
+- l’amélioration continue ;
+- la publication des versions publiques.
+
+La présence du code source sur GitHub ne constitue pas :
+- une autorisation de revente ;
+- une autorisation de redistribution commerciale ;
+- une autorisation de republication sous une autre marque.
+
+---
+
+5. SUPPORT ET RELEASES OFFICIELLES
+
+Les releases stables officielles, le support, les services d’installation et les versions commerciales sont disponibles via :
+
+https://sandrinegermain.com
+
+---
+
+6. ABSENCE DE GARANTIE
+
+Le plugin est fourni :
+
+“tel quel” / “as is”
+
+Sans garantie explicite ou implicite.
+
+L’auteur ne peut être tenu responsable :
+- de pertes de données ;
+- d’erreurs comptables ;
+- d’incompatibilités ;
+- de dommages directs ou indirects ;
+- d’interruptions de service ;
+- de pertes financières.
+
+Il appartient à l’utilisateur :
+- de tester le plugin ;
+- d’effectuer des sauvegardes ;
+- de vérifier ses workflows comptables ;
+- de vérifier la conformité fiscale locale.
+
+---
+
+7. TVA ET CONFORMITÉ
+
+WooCommerce Abby Sync ne remplace pas :
+- un comptable ;
+- un avocat ;
+- un conseiller fiscal.
+
+Le plugin transmet les données calculées par WooCommerce mais ne garantit pas la conformité fiscale de l’installation utilisateur.
+
+---
+
+8. INTELLIGENCE ARTIFICIELLE
+
+Le plugin a été développé avec assistance IA dans une logique hybride mêlant :
+- architecture système ;
+- développement WordPress ;
+- workflows WooCommerce ;
+- automatisation légère ;
+- supervision humaine.
+
+Les choix d’architecture et la logique métier restent humains.
+
+---
+
+9. DROIT APPLICABLE
+
+Cette licence est soumise au droit français.
+
+Tout litige relève de la juridiction compétente française.
+
+==================================================
+ENGLISH
+==================================================
+
+1. LICENSE PURPOSE
+
+WooCommerce Abby Sync is a WordPress plugin developed by Sandrine GERMAIN.
+
+This license defines the conditions for use, modification, distribution and commercial exploitation of the plugin.
+
+---
+
+2. PERMITTED USE
+
+You are allowed to:
+
+- install the plugin on your own websites;
+- use the plugin for personal or commercial purposes;
+- modify the plugin for your own internal projects;
+- use the plugin for client projects;
+- develop compatible extensions.
+
+---
+
+3. RESTRICTIONS
+
+Without prior written authorization from Sandrine GERMAIN, you may not:
+
+- resell the plugin;
+- commercially redistribute the plugin;
+- publish the plugin on marketplaces;
+- publish modified commercial versions;
+- remove author credits;
+- rebrand the plugin;
+- distribute derived commercial versions;
+- integrate the plugin into a commercial SaaS offering without authorization.
+
+---
+
+4. GITHUB AND PUBLIC DISTRIBUTION
+
+The public GitHub repository exists for:
+- documentation;
+- transparency;
+- development tracking;
+- continuous improvement;
+- public release publication.
+
+The availability of source code on GitHub does not grant:
+- resale rights;
+- commercial redistribution rights;
+- republication rights under another brand.
+
+---
+
+5. OFFICIAL SUPPORT AND RELEASES
+
+Official stable releases, support, installation services and commercial versions are available through:
+
+https://sandrinegermain.com
+
+---
+
+6. DISCLAIMER OF WARRANTY
+
+The plugin is provided:
+
+“as is”
+
+without warranty of any kind.
+
+The author shall not be held liable for:
+- data loss;
+- accounting errors;
+- incompatibilities;
+- direct or indirect damages;
+- service interruptions;
+- financial losses.
+
+Users are responsible for:
+- testing the plugin;
+- maintaining backups;
+- verifying accounting workflows;
+- checking local tax compliance.
+
+---
+
+7. VAT AND COMPLIANCE
+
+WooCommerce Abby Sync does not replace:
+- an accountant;
+- a lawyer;
+- a tax advisor.
+
+The plugin transmits WooCommerce-generated data but does not guarantee tax compliance for user installations.
+
+---
+
+8. ARTIFICIAL INTELLIGENCE
+
+The plugin was developed using AI-assisted workflows combining:
+- system architecture;
+- WordPress development;
+- WooCommerce workflows;
+- lightweight automation;
+- human supervision.
+
+Business logic and architectural decisions remain human-driven.
+
+---
+
+9. GOVERNING LAW
+
+This license is governed by French law.
+
+Any dispute falls under the jurisdiction of the competent French courts.
