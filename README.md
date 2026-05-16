@@ -1,34 +1,42 @@
 # WooCommerce Abby Sync
 
-Lightweight WooCommerce integration for Abby accounting software.
+Synchronisation légère WooCommerce → Abby pour les workflows comptables français.
 
-Automatically synchronize WooCommerce orders with Abby draft invoices while preserving WooCommerce as the main commercial source of truth.
-
----
-
-## Features
-
-- Automatic Abby draft invoice creation
-- WooCommerce customer synchronization
-- French VAT support
-- Multiple VAT rates support
-- Product line synchronization
-- SKU synchronization
-- Shipping cost synchronization
-- Duplicate prevention
-- Lightweight architecture
-- No Zapier or Make dependency
+WooCommerce Abby Sync permet de synchroniser automatiquement les commandes WooCommerce avec Abby afin de créer des factures brouillon cohérentes avec WooCommerce, la TVA française et les besoins des indépendants, artistes, designers, artisans et petites structures.
 
 ---
 
-## Designed for
+## Fonctionnalités
 
-- Artists
+- Création automatique des factures brouillon Abby
+- Synchronisation des clients WooCommerce
+- Support TVA française
+- Support multi-taux TVA
+- Synchronisation des lignes produits
+- Synchronisation des SKU
+- Synchronisation des frais de livraison
+- Transmission de la méthode de paiement
+- Transmission du numéro de commande WooCommerce
+- Prévention des doublons
+- Architecture légère
+- Aucune dépendance Zapier ou Make
+- Compatible WooCommerce HPOS
+- Interface d’administration intégrée
+- Test de connexion Abby intégré
+
+---
+
+## Conçu pour
+
+- Artistes
 - Designers
-- Freelancers
-- French businesses
-- WooCommerce stores
-- Abby accounting users
+- Freelances
+- Entreprises françaises
+- Boutiques WooCommerce
+- Utilisateurs Abby
+- Artisans
+- Petites structures
+- Activités créatives
 
 ---
 
@@ -36,108 +44,261 @@ Automatically synchronize WooCommerce orders with Abby draft invoices while pres
 
 ```text
 WooCommerce
-→ WooCommerce VAT
-→ Order
+→ TVA WooCommerce
+→ Commande
 → WooCommerce Abby Sync
-→ Abby Draft Invoice
+→ Facture brouillon Abby
 ```
 
-WooCommerce remains the primary source for:
+WooCommerce reste la source principale pour :
 
-- products
-- taxes
-- pricing
-- checkout
-- customer management
+- les produits
+- les taxes
+- les prix
+- le checkout
+- la gestion clients
+- les commandes
 
-Abby handles:
+Abby gère :
 
-- invoicing
-- accounting
-- French compliance
+- la facturation
+- la comptabilité
+- la conformité française
 
 ---
 
-## Supported VAT Rates
+## Taux TVA supportés
 
-Examples:
+Exemples :
 
-| VAT Type | Rate |
+| Type TVA | Taux |
 |---|---|
 | Standard | 20% |
-| Reduced Art VAT | 5.5% |
-| Author Rights | 10% |
+| TVA réduite art | 5.5% |
+| Droits d’auteur | 10% |
 | Export | 0% |
 
-VAT is calculated directly from WooCommerce orders.
+La TVA est calculée directement par WooCommerce.
 
 ---
 
-## Requirements
+## Philosophie du plugin
+
+Le plugin suit une logique volontairement simple :
+
+```text
+WooCommerce = environnement commercial
+Abby = environnement comptable
+```
+
+Le plugin agit uniquement comme :
+
+- un pont de synchronisation ;
+- une architecture légère ;
+- une couche de communication cohérente.
+
+L’objectif est de limiter :
+
+- les dépendances externes ;
+- les workflows complexes ;
+- les couches inutiles ;
+- les risques de doublons.
+
+---
+
+## Pourquoi ce plugin existe
+
+De nombreuses architectures WooCommerce reposent aujourd’hui sur :
+
+- Zapier ;
+- Make ;
+- webhooks multiples ;
+- automatisations externes complexes.
+
+WooCommerce Abby Sync adopte une approche différente :
+
+- plus légère ;
+- plus lisible ;
+- plus stable ;
+- plus cohérente.
+
+Le plugin a été développé autour d’un besoin réel de gestion WooCommerce et comptabilité française.
+
+---
+
+## Prérequis
 
 - WordPress
 - WooCommerce
-- Abby account
-- Abby API key
+- Compte Abby
+- Clé API Abby
 
 ---
 
 ## Installation
 
-1. Upload plugin ZIP
-2. Activate plugin
-3. Enter Abby API key
-4. Configure WooCommerce taxes
-5. Start synchronizing orders
+1. Téléverser le ZIP du plugin
+2. Activer le plugin
+3. Entrer la clé API Abby
+4. Configurer les taxes WooCommerce
+5. Commencer la synchronisation des commandes
 
 ---
 
-## Synchronization
+## Synchronisation
 
-The plugin automatically:
+Le plugin :
 
-- creates Abby contacts
-- creates Abby draft invoices
-- sends product lines
-- sends VAT rates
-- sends payment method
-- prevents duplicates
+- crée les contacts Abby
+- crée les factures brouillon Abby
+- transmet les lignes produits
+- transmet les taux TVA
+- transmet les méthodes de paiement
+- transmet les numéros de commande WooCommerce
+- évite les doublons
 
 ---
 
-## Philosophy
+## Interface d’administration
 
-This plugin intentionally stays lightweight.
+Le plugin inclut :
 
-WooCommerce handles commerce.  
-Abby handles accounting.
+- une page d’accueil
+- une page réglages
+- un champ clé API Abby
+- un bouton test connexion Abby
+- une documentation rapide intégrée
 
-The plugin acts only as a synchronization bridge.
+---
+
+## Documentation
+
+Documentation complète disponible dans le Wiki GitHub :
+
+https://github.com/eimablank/woocommerce-abby-sync/wiki
+
+---
+
+## Abby
+
+WooCommerce Abby Sync a été développé autour des workflows WooCommerce et Abby afin de proposer une architecture légère et cohérente pour la comptabilité française.
+
+Créer un compte Abby :
+
+https://abby.fr/?code=PK-633462-9Q
+
+---
+
+## Page officielle du plugin
+
+https://sandrinegermain.com/produit/woocommerce-abby-sync/
+
+---
+
+## GitHub & philosophie open workflow
+
+Le projet est publié publiquement afin de :
+
+- documenter le développement ;
+- favoriser la transparence ;
+- permettre l’amélioration continue ;
+- proposer une architecture compréhensible.
+
+GitHub :
+
+https://github.com/eimablank/woocommerce-abby-sync
+
+---
+
+## Développement assisté par IA
+
+Le plugin a été développé dans une logique hybride mêlant :
+
+- architecture système ;
+- workflows ;
+- WooCommerce ;
+- design ;
+- développement WordPress ;
+- intelligence artificielle comme outil d’assistance.
+
+L’IA permet :
+
+- prototypage rapide ;
+- expérimentation ;
+- structuration ;
+- correction ;
+- apprentissage accéléré.
+
+Mais :
+
+- la logique métier ;
+- les workflows ;
+- les choix d’architecture ;
+
+restent humains.
 
 ---
 
 ## Roadmap
 
-Planned features:
+### V1.0.0
 
-- Admin settings page
-- Invoice resend button
-- Logs viewer
-- Abby marketplace integration
-- French e-invoicing compatibility
+- Synchronisation WooCommerce → Abby
+- Factures brouillon
+- TVA WooCommerce
+- Prévention doublons
+- Compatibilité HPOS
+- Interface administration
+- Test connexion Abby
+
+### V1.1.0
+
+- Logs avancés
+- Outils resynchronisation
+- Diagnostic
+
+### V2.0.0
+
+- Dashboard
+- Extensions atelier
+- Outils agence
+- Workflows créatifs
+- Compatibilité facturation électronique France
 
 ---
 
-## License
+## Licence
 
 Copyright © Sandrine GERMAIN
 
-All rights reserved.
+Tous droits réservés.
 
 ---
 
-## Commercial Version & Support
+## Versions commerciales & support
 
-Official stable releases, support and installation services are available on:
+Releases stables, support et services d’installation disponibles sur :
 
 https://sandrinegermain.com
+
+---
+
+## Auteur
+
+Sandrine GERMAIN  
+Architecte, designer et développeuse web française explorant les liens entre :
+
+- architecture numérique ;
+- workflows ;
+- WooCommerce ;
+- design système ;
+- automatisation légère ;
+- développement assisté par IA.
+
+### Site officiel
+
+https://sandrinegermain.com
+
+### GitHub
+
+https://github.com/eimablank
